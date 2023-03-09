@@ -21,6 +21,7 @@ function create() {
 }
 //播放音效
 function start() {
+    console.log("成功执行");
     //判断音频标签是否创建
     if (!isCreate)
         create();
